@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tabs Layout</title>
+    <link href="./index.css" rel="stylesheet">
+</head>
+<body>
+    
+    <ul class="tab-container">
+        <li class="tab selected" data-tab="tab1">Tab1</li>
+        <li class="tab" data-tab="tab2">Tab2</li>
+        <li class="tab" data-tab="tab3">Tab3</li>
+        <li class="tab" data-tab="tab4">Tab4</li>
+    </ul>
+    <section class="tab-content-container">
+        <div class="tab-content selected" data-tab="tab1"->Content1</div>
+        <div class="tab-content hidden" data-tab="tab2">Content2</div>
+        <div class="tab-content hidden" data-tab="tab3">Content3</div>
+        <div class="tab-content hidden" data-tab="tab4">Content4</div>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+</html>
